@@ -26,8 +26,10 @@ npm run serve
 ## 주요 기능
 --------------------
 -추적 기능
+![Image](https://github.com/user-attachments/assets/088d9dbf-1b16-4827-9f1d-6a69e13e3a95)
 
 -검색 기능
+![Image](https://github.com/user-attachments/assets/186752a2-506e-426f-8f8b-899772e7682d)
 
 -리플레이 기능
 ![Image](https://github.com/user-attachments/assets/03120119-992e-4074-a9aa-b8ab4cfb21a1)
