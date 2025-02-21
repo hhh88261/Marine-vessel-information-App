@@ -25,6 +25,9 @@ npm run serve
 
 ## 주요 기능
 --------------------
+-추적 기능
 
-|선박 추적 기능|선박 탐색 기능|리플레이 기능|
-|-----|-----|-----|
+-검색 기능
+
+-리플레이 기능
+![Image](https://github.com/user-attachments/assets/03120119-992e-4074-a9aa-b8ab4cfb21a1)
