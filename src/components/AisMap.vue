@@ -206,7 +206,6 @@ export default {
         const [msgId, lat, lon, mmsi, trueHead, sog, newLat, newLon, cog] = parsedData;
         coordinates = fromLonLat([parseFloat(lon), parseFloat(lat)]);
 
-
         //메시지 타입이 1이고 지도에 추가된 mmsi가 있을 때
         if (msgId && this.markers[mmsi] && trueHead) {
           this.markers[mmsi].setGeometry(new Point(coordinates));

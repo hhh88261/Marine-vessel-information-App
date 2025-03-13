@@ -45,16 +45,9 @@ export default {
         const marker = this.markers[this.mmsi];
         if(marker) {
           const coordinates = marker.getGeometry().getCoordinates();
-
-
           this.map.getView().setCenter(coordinates);
 
           this.map.getView().setZoom(15);
-
-
-
-
-
         } else {
           console.log("정보를 찾을 수 없음");
         }
