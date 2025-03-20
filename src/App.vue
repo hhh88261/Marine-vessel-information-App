@@ -1,15 +1,10 @@
 <template>
-  <LoginForm />
+  <router-view /> <!-- Vue Router가 관리하는 컴포넌트를 이곳에 렌더링 -->
 </template>
 
 <script>
-import LoginForm from './components/memeber/LoginForm.vue'
-
 export default {
-  name: 'App',
-  components: {
-    LoginForm
-  }
+  name: 'App'
 }
 </script>
 
