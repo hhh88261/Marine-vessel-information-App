@@ -1,14 +1,14 @@
 <template>
-  <AisMap />
+  <LoginForm />
 </template>
 
 <script>
-import AisMap from './components/AisMap.vue'
+import LoginForm from './components/memeber/LoginForm.vue'
 
 export default {
   name: 'App',
   components: {
-    AisMap,
+    LoginForm
   }
 }
 </script>
