@@ -53,7 +53,7 @@ const handleLogin = async () => {
       console.log('로그인 성공, 토큰:', token);
 
       // AisMap.vue로 이동
-      router.push('/AisMap');
+      router.push('/main');
     } else {
       console.error('토큰이 응답에 없음');
       alert('로그인 실패!');
